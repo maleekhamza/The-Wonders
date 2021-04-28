@@ -1091,18 +1091,6 @@
         },
         {
             "name": "opis/closure",
-<<<<<<< HEAD
-            "version": "3.6.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/opis/closure.git",
-                "reference": "943b5d70cc5ae7483f6aff6ff43d7e34592ca0f5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/opis/closure/zipball/943b5d70cc5ae7483f6aff6ff43d7e34592ca0f5",
-                "reference": "943b5d70cc5ae7483f6aff6ff43d7e34592ca0f5",
-=======
             "version": "3.6.2",
             "source": {
                 "type": "git",
@@ -1113,7 +1101,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/opis/closure/zipball/06e2ebd25f2869e54a306dda991f7db58066f7f6",
                 "reference": "06e2ebd25f2869e54a306dda991f7db58066f7f6",
->>>>>>> 64f66bdaa00a0adcc2ba66b9fee14d334c37cc6c
                 "shasum": ""
             },
             "require": {
@@ -1163,15 +1150,9 @@
             ],
             "support": {
                 "issues": "https://github.com/opis/closure/issues",
-<<<<<<< HEAD
-                "source": "https://github.com/opis/closure/tree/3.6.1"
-            },
-            "time": "2020-11-07T02:01:34+00:00"
-=======
                 "source": "https://github.com/opis/closure/tree/3.6.2"
             },
             "time": "2021-04-09T13:42:10+00:00"
->>>>>>> 64f66bdaa00a0adcc2ba66b9fee14d334c37cc6c
         },
         {
             "name": "paragonie/random_compat",
@@ -1443,22 +1424,6 @@
         },
         {
             "name": "psy/psysh",
-<<<<<<< HEAD
-            "version": "v0.10.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "a395af46999a12006213c0c8346c9445eb31640c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/a395af46999a12006213c0c8346c9445eb31640c",
-                "reference": "a395af46999a12006213c0c8346c9445eb31640c",
-                "shasum": ""
-            },
-            "require": {
-                "dnoegel/php-xdg-base-dir": "0.1.*",
-=======
             "version": "v0.10.8",
             "source": {
                 "type": "git",
@@ -1472,7 +1437,6 @@
                 "shasum": ""
             },
             "require": {
->>>>>>> 64f66bdaa00a0adcc2ba66b9fee14d334c37cc6c
                 "ext-json": "*",
                 "ext-tokenizer": "*",
                 "nikic/php-parser": "~4.0|~3.0|~2.0|~1.3",
@@ -1529,15 +1493,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-<<<<<<< HEAD
-                "source": "https://github.com/bobthecow/psysh/tree/v0.10.7"
-            },
-            "time": "2021-03-14T02:14:56+00:00"
-=======
                 "source": "https://github.com/bobthecow/psysh/tree/v0.10.8"
             },
             "time": "2021-04-10T16:23:39+00:00"
->>>>>>> 64f66bdaa00a0adcc2ba66b9fee14d334c37cc6c
         },
         {
             "name": "ramsey/uuid",
@@ -3957,18 +3915,6 @@
         },
         {
             "name": "facade/flare-client-php",
-<<<<<<< HEAD
-            "version": "1.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/facade/flare-client-php.git",
-                "reference": "9dd6f2b56486d939c4467b3f35475d44af57cf17"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/facade/flare-client-php/zipball/9dd6f2b56486d939c4467b3f35475d44af57cf17",
-                "reference": "9dd6f2b56486d939c4467b3f35475d44af57cf17",
-=======
             "version": "1.6.1",
             "source": {
                 "type": "git",
@@ -3979,7 +3925,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/facade/flare-client-php/zipball/f2b0969f2d9594704be74dbeb25b201570a98098",
                 "reference": "f2b0969f2d9594704be74dbeb25b201570a98098",
->>>>>>> 64f66bdaa00a0adcc2ba66b9fee14d334c37cc6c
                 "shasum": ""
             },
             "require": {
@@ -4023,11 +3968,7 @@
             ],
             "support": {
                 "issues": "https://github.com/facade/flare-client-php/issues",
-<<<<<<< HEAD
-                "source": "https://github.com/facade/flare-client-php/tree/1.5.0"
-=======
                 "source": "https://github.com/facade/flare-client-php/tree/1.6.1"
->>>>>>> 64f66bdaa00a0adcc2ba66b9fee14d334c37cc6c
             },
             "funding": [
                 {
@@ -4035,11 +3976,7 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
-            "time": "2021-03-31T07:32:54+00:00"
-=======
             "time": "2021-04-08T08:50:01+00:00"
->>>>>>> 64f66bdaa00a0adcc2ba66b9fee14d334c37cc6c
         },
         {
             "name": "facade/ignition",
