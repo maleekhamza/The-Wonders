@@ -7,6 +7,9 @@ use Faker\Generator as Faker;
 
 $factory->define(responsable_iset::class, function (Faker $faker) {
     return [
-        //
+        'name'=>$faker->word,
+        'password'=>$faker->password,
+        'email'=>$faker->safeEmail,
+        'created_at'=>now(),
     ];
 });
