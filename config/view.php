@@ -1,10 +1,19 @@
 <?php
 
 return [
+<<<<<<< HEAD
     /*
     |-------------------------------------------------------------------------
     | View Storage Paths
     |-------------------------------------------------------------------------
+=======
+
+    /*
+    |--------------------------------------------------------------------------
+    | View Storage Paths
+    |--------------------------------------------------------------------------
+    |
+>>>>>>> 64f66bdaa00a0adcc2ba66b9fee14d334c37cc6c
     | Most templating systems load templates from disk. Here you may specify
     | an array of paths that should be checked for your views. Of course
     | the usual Laravel view path has already been registered for you.
