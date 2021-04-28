@@ -11,13 +11,8 @@
 |
 */
 
-<<<<<<< HEAD
-Route::get('/', 'HomeController@welcome' ); 
-    
-=======
 Route::get('/', 'HomeController@welcome');
    
->>>>>>> 64f66bdaa00a0adcc2ba66b9fee14d334c37cc6c
 
 Auth::routes();
 
