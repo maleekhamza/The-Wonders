@@ -19,7 +19,7 @@ class CreateResponsableIsetTable extends Migration
             $table->string('password');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
-            $table->integer('salle_id')->unsigned();
+            $table->integer('salle_id')->unsigned()->index();
             $table->timestamps();
             $table->foreign('salle_id')->references('id')->on('salles')->onDelete('restrict')->onUpdate('restrict');
         });
