@@ -19,9 +19,9 @@ class CreateRespMediasTable extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->integer('id_club')->unsigned();
+            $table->integer('club_id')->unsigned();
             $table->timestamps();
-            $table->foreign('id_club')->references('id')->on('clubs')->onDelete('restrict')->onUpdate('restrict');
+            $table->foreign('club_id')->references('id')->on('clubs')->onDelete('restrict')->onUpdate('restrict');
         });
     }
 
