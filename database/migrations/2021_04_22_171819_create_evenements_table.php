@@ -18,9 +18,12 @@ class CreateEvenementsTable extends Migration
             $table->string('nom');
             $table->string('date');
             $table->integer('nb_participant');
-            $table->bIgInteger('id_ResponsableMedia')->unsigned()->index();
+         //   $table->bIgInteger('statistique_id')->unsigned()->index();
+            $table->bIgInteger('responsableMedia_id')->unsigned()->index();
             $table->timestamps();
-           $table->foreign('id_ResponsableMedia')->references('id')->on('resp_medias')->onDelete('restrict')->onUpdate('restrict');
+         //  $table->foreign('responsableMedia_id')->references('id')->on('resp_medias')->onDelete('restrict')->onUpdate('restrict');
+          // $table->foreign('statistique_id')->references('id')->on('  statistiques')->onDelete('restrict')->onUpdate('restrict');
+         
         });
     }
 

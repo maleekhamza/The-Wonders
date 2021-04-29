@@ -19,9 +19,9 @@ class CreateMembreClubsTable extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->integer('id_club')->unsigned()->index();
+            $table->integer('club_id')->unsigned()->index();
             $table->timestamps();
-            $table->foreign('id_club')->references('id')->on('clubs')->onDelete('restrict')->onUpdate('restrict');
+            $table->foreign('club_id')->references('id')->on('clubs')->onDelete('restrict')->onUpdate('restrict');
         });
     }
 
