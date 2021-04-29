@@ -13,7 +13,7 @@ $factory->define(App\Evenement::class, function (Faker $faker) {
         'nom'=>$faker->lastName,
         'date'=>now(),
         'nb_patricipant' => $faker->randomDigitNotNull(5,100),
-        //'statistique_id'=>Statistique::get('id')->random(),
-       // 'responsableMedia_id'=>Resp_media::get('id')->random(),
+        'statistique_id'=>Statistique::get('id')->random(),
+        'responsableMedia_id'=>Resp_media::get('id')->random(),
     ];
 });
