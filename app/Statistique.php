@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class clubs extends Model
+class Statistique extends Model
 {
     //
 }

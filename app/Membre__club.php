@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class evenements-m extends Model
+class Membre__club extends Model
 {
     //
 }

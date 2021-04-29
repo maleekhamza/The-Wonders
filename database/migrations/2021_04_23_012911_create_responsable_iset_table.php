@@ -21,7 +21,7 @@ class CreateResponsableIsetTable extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->integer('salle_id')->unsigned()->index();
             $table->timestamps();
-            $table->foreign('salle_id')->references('id')->on('salles')->onDelete('restrict')->onUpdate('restrict');
+            $table->foreign('salle_id')->references('id')->on('salle')->onDelete('restrict')->onUpdate('restrict');
         });
     }
 
