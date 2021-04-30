@@ -29,6 +29,7 @@ class CreateUtilisateursTable extends Migration
 
             $table->timestamps();
             $table->foreign('proposition_id')->references('id')->on('propositions')->onDelete('restrict')->onUpdate('restrict');
+           
         });
     }
 

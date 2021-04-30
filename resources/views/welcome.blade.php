@@ -11,6 +11,9 @@
 
         <!-- Styles -->
         <style>
+<<<<<<< HEAD
+           
+=======
             html, body {
                 background-color: #fff;
                 color: #636b6f;
@@ -61,6 +64,7 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+>>>>>>> 64f66bdaa00a0adcc2ba66b9fee14d334c37cc6c
         </style>
     </head>
     <body>
@@ -81,6 +85,17 @@
 
             <div class="content">
                 <div class="title m-b-md">
+<<<<<<< HEAD
+                    dsi2_ISETBIZERTE
+                </div>
+                <ul>
+                @foreach ($Clients as $client)
+                        <li>{{ $client['name'] }} ({{ $client['prenom'] }}) {{ $client['tel'] }}</li>
+                @endforeach
+            
+                </ul>
+                </div>
+=======
                   DSI21
                 </div>
             <ul>
@@ -89,6 +104,7 @@
              @endforeach
             </ul>
     
+>>>>>>> 64f66bdaa00a0adcc2ba66b9fee14d334c37cc6c
             </div>
         </div>
     </body>

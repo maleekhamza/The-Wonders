@@ -19,6 +19,7 @@ class CreateStatistiquesTable extends Migration
             $table->integer('nb_personnes');
             $table->integer('nb_personnes_connectee');
             $table->timestamps();
+            
         });
     }
 

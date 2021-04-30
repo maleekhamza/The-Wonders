@@ -32,6 +32,6 @@ class CreateRespMediasTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('resp_medias');
+        Schema::dropIfExists('resp_media');
     }
 }
