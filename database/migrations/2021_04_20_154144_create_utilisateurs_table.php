@@ -14,7 +14,7 @@ class CreateUtilisateursTable extends Migration
     public function up()
     {
         Schema::create('utilisateurs', function (Blueprint $table) {
-            $table->Increments('id');
+            $table->increments('id');
             $table->string('name');
             $table->string('username');
             $table->integer('numCin');
@@ -26,11 +26,10 @@ class CreateUtilisateursTable extends Migration
             $table->string('password');
             //$table->rememberToken();
             $table->integer('proposition_id')->unsigned();
-            //$table->integer('evenement_id')->unsigned();
+            $table->integer('evenement_id')->unsigned();
             $table->timestamps();
             $table->foreign('proposition_id')->references('id')->on('propositions')->onDelete('restrict')->onUpdate('restrict');
-           
-            //$table->foreign('evenement_id')->references('id')->on('evenements')->onDelete('restrict')->onUpdate('restrict');
+            $table->foreign('evenement_id')->references('id')->on('evenements')->onDelete('restrict')->onUpdate('restrict');
            
         });
     }
