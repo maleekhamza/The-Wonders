@@ -12,6 +12,6 @@ class Membre_clubsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(Membre_club::class,12)->create();
+        factory(Membre_club::class,10)->create();
     }
 }

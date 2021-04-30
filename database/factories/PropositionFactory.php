@@ -10,7 +10,7 @@ $factory->define(Proposition::class, function (Faker $faker) {
     return [
         'name'=>$faker->word,
         'username'=> $faker ->userName,
-        'message'=>$faker->sentence,
+        'message'=>$faker->word,
         'e-mail'=>$faker->safeEmail,
         
     ];

@@ -12,7 +12,7 @@ class PropositionTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(Proposition::class,14)->create();
+        factory(Proposition::class,10)->create();
 
     }
 }
