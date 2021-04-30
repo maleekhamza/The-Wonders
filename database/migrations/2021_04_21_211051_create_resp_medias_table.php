@@ -15,11 +15,12 @@ class CreateRespMediasTable extends Migration
     {
         Schema::create('resp_medias', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->integer('club_id')->unsigned();
             $table->string('nom');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->integer('club_id')->unsigned();
+           
             $table->timestamps();
             $table->foreign('club_id')->references('id')->on('clubs')->onDelete('restrict')->onUpdate('restrict');
         });
