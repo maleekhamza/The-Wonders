@@ -24,11 +24,13 @@ class CreateUtilisateursTable extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->rememberToken();
+            //$table->rememberToken();
             $table->integer('proposition_id')->unsigned();
-
+            //$table->integer('evenement_id')->unsigned();
             $table->timestamps();
             $table->foreign('proposition_id')->references('id')->on('propositions')->onDelete('restrict')->onUpdate('restrict');
+           
+            //$table->foreign('evenement_id')->references('id')->on('evenements')->onDelete('restrict')->onUpdate('restrict');
            
         });
     }
