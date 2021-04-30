@@ -2,14 +2,15 @@
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
-use App\Model;
-use Faker\Generator as Faker;
 
-$factory->define(Model::class, function (Faker $faker) {
+use Faker\Generator as Faker;
+use App\Salle;
+
+$factory->define(Salle::class, function (Faker $faker) {
     return [
         'name'=>$faker->word,
         'numero'=>$faker->randomDigit,
-        'date_dispo'=>$faker->now,
+        'date_dispo'=>$faker->date($format = 'Y-m-d', $max = 'now'),
         'heure'=>$faker->time($format = 'H:i:s', $max = 'now'),
         'created_at'=>now(),
     ];

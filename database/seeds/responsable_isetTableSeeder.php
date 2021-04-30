@@ -1,5 +1,6 @@
 <?php
 use App\responsable_iset;
+use App\Salle;
 use Illuminate\Database\Seeder;
 
 class responsable_isetTableSeeder extends Seeder
