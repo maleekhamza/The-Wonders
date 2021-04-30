@@ -5,7 +5,7 @@
 use App\Model;
 use Faker\Generator as Faker;
 use App\Membre_club;
-//use App\Club;
+use App\Club;
 
 $factory->define(App\Membre_club::class, function (Faker $faker) {
     return [
@@ -13,6 +13,6 @@ $factory->define(App\Membre_club::class, function (Faker $faker) {
         'email'=>$faker->email,
         'email_verified_at'=>$faker->date($format = 'Y-m-d', $max = 'now') ,
         'password'=>$faker->password,
-       // 'club_id'=>Club::get('id')->random(),
+        'club_id'=>Club::get('id')->random(),
     ];
 });

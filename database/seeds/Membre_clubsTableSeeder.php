@@ -1,8 +1,8 @@
 <?php
 
-use App\Membre_club;
-use Illuminate\Database\Seeder;
 
+use Illuminate\Database\Seeder;
+use App\Membre_club;
 class Membre_clubsTableSeeder extends Seeder
 {
     /**
