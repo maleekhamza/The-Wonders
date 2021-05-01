@@ -13,5 +13,6 @@ class SallesTableSeeder extends Seeder
     public function run()
     {
         factory(Salle::class, 10)->create();
+        
     }
 }
