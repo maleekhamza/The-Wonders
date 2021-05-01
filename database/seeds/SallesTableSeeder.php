@@ -6,7 +6,7 @@ use Illuminate\Database\Seeder;
 class SallesTableSeeder extends Seeder
 {
     /**
-     * Run the database seeds
+     * Run the database seeds.
      *
      * @return void
      */
