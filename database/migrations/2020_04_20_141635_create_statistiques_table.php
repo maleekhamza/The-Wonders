@@ -14,7 +14,7 @@ class CreateStatistiquesTable extends Migration
     public function up()
     {
         Schema::create('statistiques', function (Blueprint $table) {
-            $table->Increments('id');
+            $table->increments('id');
             $table->integer('nb_visiteurs');
             $table->integer('nb_personnes');
             $table->integer('nb_personnes_connectee');
