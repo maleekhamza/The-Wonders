@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateUsersTable extends Migration
+class CreateResponsableIsetTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,18 +13,15 @@ class CreateUsersTable extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
-<<<<<<< HEAD
-            $table->bigIncrements('id');
-=======
+        Schema::create('responsable_iset', function (Blueprint $table) {
             $table->increments('id');
->>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
-            $table->string('name');
+            $table->string('nom');
+            $table->string('password');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
-            $table->rememberToken();
+            $table->integer('salle_id')->unsigned()->index();
             $table->timestamps();
+            $table->foreign('salle_id')->references('id')->on('salle')->onDelete('restrict')->onUpdate('restrict');
         });
     }
 
@@ -35,6 +32,6 @@ class CreateUsersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('responsable_iset');
     }
 }

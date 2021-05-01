@@ -373,6 +373,7 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
             "version": "v6.20.22",
             "source": {
                 "type": "git",
@@ -383,6 +384,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/f4d2beff6f1793909e1db4f2204800183b4f1719",
                 "reference": "f4d2beff6f1793909e1db4f2204800183b4f1719",
+=======
+            "version": "v6.20.24",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "addc44fce390c783b2dee0d617300dce97e895f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/addc44fce390c783b2dee0d617300dce97e895f4",
+                "reference": "addc44fce390c783b2dee0d617300dce97e895f4",
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
                 "shasum": ""
             },
             "require": {
@@ -522,7 +535,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
+<<<<<<< HEAD
             "time": "2021-03-30T21:33:47+00:00"
+=======
+            "time": "2021-04-20T13:46:19+00:00"
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
         },
         {
             "name": "laravel/tinker",
@@ -1890,6 +1907,7 @@
         },
         {
             "name": "symfony/deprecation-contracts",
+<<<<<<< HEAD
             "version": "v2.2.0",
             "source": {
                 "type": "git",
@@ -1900,6 +1918,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/5fa56b4074d1ae755beb55617ddafe6f5d78f665",
                 "reference": "5fa56b4074d1ae755beb55617ddafe6f5d78f665",
+=======
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/deprecation-contracts.git",
+                "reference": "5f38c8804a9e97d23e0c8d63341088cd8a22d627"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/5f38c8804a9e97d23e0c8d63341088cd8a22d627",
+                "reference": "5f38c8804a9e97d23e0c8d63341088cd8a22d627",
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
                 "shasum": ""
             },
             "require": {
@@ -1908,7 +1938,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "2.2-dev"
+=======
+                    "dev-main": "2.4-dev"
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -1937,7 +1971,11 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/deprecation-contracts/tree/master"
+=======
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.4.0"
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
             },
             "funding": [
                 {
@@ -1953,7 +1991,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2020-09-07T11:33:47+00:00"
+=======
+            "time": "2021-03-23T23:28:01+00:00"
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
         },
         {
             "name": "symfony/error-handler",
@@ -2249,6 +2291,7 @@
         },
         {
             "name": "symfony/http-client-contracts",
+<<<<<<< HEAD
             "version": "v2.3.1",
             "source": {
                 "type": "git",
@@ -2259,6 +2302,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-client-contracts/zipball/41db680a15018f9c1d4b23516059633ce280ca33",
                 "reference": "41db680a15018f9c1d4b23516059633ce280ca33",
+=======
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/http-client-contracts.git",
+                "reference": "7e82f6084d7cae521a75ef2cb5c9457bbda785f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/http-client-contracts/zipball/7e82f6084d7cae521a75ef2cb5c9457bbda785f4",
+                "reference": "7e82f6084d7cae521a75ef2cb5c9457bbda785f4",
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
                 "shasum": ""
             },
             "require": {
@@ -2269,9 +2324,14 @@
             },
             "type": "library",
             "extra": {
+<<<<<<< HEAD
                 "branch-version": "2.3",
                 "branch-alias": {
                     "dev-main": "2.3-dev"
+=======
+                "branch-alias": {
+                    "dev-main": "2.4-dev"
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -2308,7 +2368,11 @@
                 "standards"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/http-client-contracts/tree/v2.3.1"
+=======
+                "source": "https://github.com/symfony/http-client-contracts/tree/v2.4.0"
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
             },
             "funding": [
                 {
@@ -2324,7 +2388,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2020-10-14T17:08:19+00:00"
+=======
+            "time": "2021-04-11T23:07:08+00:00"
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
         },
         {
             "name": "symfony/http-foundation",
@@ -3380,6 +3448,7 @@
         },
         {
             "name": "symfony/service-contracts",
+<<<<<<< HEAD
             "version": "v2.2.0",
             "source": {
                 "type": "git",
@@ -3390,11 +3459,27 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/service-contracts/zipball/d15da7ba4957ffb8f1747218be9e1a121fd298a1",
                 "reference": "d15da7ba4957ffb8f1747218be9e1a121fd298a1",
+=======
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/service-contracts.git",
+                "reference": "f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb",
+                "reference": "f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb",
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
+<<<<<<< HEAD
                 "psr/container": "^1.0"
+=======
+                "psr/container": "^1.1"
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
             },
             "suggest": {
                 "symfony/service-implementation": ""
@@ -3402,7 +3487,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "2.2-dev"
+=======
+                    "dev-main": "2.4-dev"
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -3439,7 +3528,11 @@
                 "standards"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/service-contracts/tree/master"
+=======
+                "source": "https://github.com/symfony/service-contracts/tree/v2.4.0"
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
             },
             "funding": [
                 {
@@ -3455,7 +3548,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2020-09-07T11:33:47+00:00"
+=======
+            "time": "2021-04-01T10:43:52+00:00"
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
         },
         {
             "name": "symfony/translation",
@@ -3547,6 +3644,7 @@
         },
         {
             "name": "symfony/translation-contracts",
+<<<<<<< HEAD
             "version": "v2.3.0",
             "source": {
                 "type": "git",
@@ -3557,6 +3655,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/e2eaa60b558f26a4b0354e1bbb25636efaaad105",
                 "reference": "e2eaa60b558f26a4b0354e1bbb25636efaaad105",
+=======
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/translation-contracts.git",
+                "reference": "95c812666f3e91db75385749fe219c5e494c7f95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/95c812666f3e91db75385749fe219c5e494c7f95",
+                "reference": "95c812666f3e91db75385749fe219c5e494c7f95",
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
                 "shasum": ""
             },
             "require": {
@@ -3568,7 +3678,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "2.3-dev"
+=======
+                    "dev-main": "2.4-dev"
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -3605,7 +3719,11 @@
                 "standards"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/translation-contracts/tree/v2.3.0"
+=======
+                "source": "https://github.com/symfony/translation-contracts/tree/v2.4.0"
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
             },
             "funding": [
                 {
@@ -3621,7 +3739,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2020-09-28T13:05:58+00:00"
+=======
+            "time": "2021-03-23T23:28:01+00:00"
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
         },
         {
             "name": "symfony/var-dumper",
@@ -3915,6 +4037,7 @@
         },
         {
             "name": "facade/flare-client-php",
+<<<<<<< HEAD
             "version": "1.6.1",
             "source": {
                 "type": "git",
@@ -3925,6 +4048,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/facade/flare-client-php/zipball/f2b0969f2d9594704be74dbeb25b201570a98098",
                 "reference": "f2b0969f2d9594704be74dbeb25b201570a98098",
+=======
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facade/flare-client-php.git",
+                "reference": "6bf380035890cb0a09b9628c491ae3866b858522"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facade/flare-client-php/zipball/6bf380035890cb0a09b9628c491ae3866b858522",
+                "reference": "6bf380035890cb0a09b9628c491ae3866b858522",
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
                 "shasum": ""
             },
             "require": {
@@ -3968,7 +4103,11 @@
             ],
             "support": {
                 "issues": "https://github.com/facade/flare-client-php/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/facade/flare-client-php/tree/1.6.1"
+=======
+                "source": "https://github.com/facade/flare-client-php/tree/1.7.0"
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
             },
             "funding": [
                 {
@@ -3976,7 +4115,11 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2021-04-08T08:50:01+00:00"
+=======
+            "time": "2021-04-12T09:30:36+00:00"
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
         },
         {
             "name": "facade/ignition",
