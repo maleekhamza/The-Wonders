@@ -11,6 +11,12 @@
 
         <!-- Styles -->
         <style>
+<<<<<<< HEAD
+<<<<<<< HEAD
+           
+=======
+=======
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
             html, body {
                 background-color: #fff;
                 color: #636b6f;
@@ -61,6 +67,10 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+<<<<<<< HEAD
+>>>>>>> 64f66bdaa00a0adcc2ba66b9fee14d334c37cc6c
+=======
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
         </style>
     </head>
     <body>
@@ -81,6 +91,20 @@
 
             <div class="content">
                 <div class="title m-b-md">
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    dsi2_ISETBIZERTE
+                </div>
+                <ul>
+                @foreach ($Clients as $client)
+                        <li>{{ $client['name'] }} ({{ $client['prenom'] }}) {{ $client['tel'] }}</li>
+                @endforeach
+            
+                </ul>
+                </div>
+=======
+=======
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
                   DSI21
                 </div>
             <ul>
@@ -89,6 +113,10 @@
              @endforeach
             </ul>
     
+<<<<<<< HEAD
+>>>>>>> 64f66bdaa00a0adcc2ba66b9fee14d334c37cc6c
+=======
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
             </div>
         </div>
     </body>
