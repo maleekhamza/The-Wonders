@@ -17,6 +17,7 @@ class CreateEvenementsTable extends Migration
             $table->increments('id');
             $table->string('nom');
             $table->string('date');
+            $table->String('image');
             $table->integer('nb_patricipant');
             $table->integer('statistique_id')->unsigned()->index();
             $table->bigInteger('responsableMedia_id')->unsigned()->index();

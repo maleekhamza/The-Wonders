@@ -12,6 +12,7 @@ $factory->define(App\Evenement::class, function (Faker $faker) {
     return [
         'nom'=>$faker->lastName,
         'date'=>now(),
+        'image'=>$faker->imageUrl,
         'nb_patricipant'=>$faker->randomDigit,
         'statistique_id'=>Statistique::get('id')->random(),
         'responsableMedia_id'=>Resp_media::get('id')->random(),

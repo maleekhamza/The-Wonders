@@ -1,111 +1,105 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
-
-        <!-- Styles -->
-        <style>
-<<<<<<< HEAD
-           
-=======
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
->>>>>>> 64f66bdaa00a0adcc2ba66b9fee14d334c37cc6c
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-<<<<<<< HEAD
-                    dsi2_ISETBIZERTE
-                </div>
-                <ul>
-                @foreach ($Clients as $client)
-                        <li>{{ $client['name'] }} ({{ $client['prenom'] }}) {{ $client['tel'] }}</li>
-                @endforeach
-            
-                </ul>
-                </div>
-=======
-                  DSI21
-                </div>
-            <ul>
-             @foreach($clients as $client)
-                <li>{{ $client['nom']}} ({{ $client['prenom']}}) {{ $client['datenaissance']}}</li>
-             @endforeach
-            </ul>
-    
->>>>>>> 64f66bdaa00a0adcc2ba66b9fee14d334c37cc6c
+@extends('layouts.app')
+@section('content')
+<div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <h6>You Are So Welcome</h6>
+                <h2>In order to Encourage Our <em> Students</em> &amp; <span>Professors </span> to get involved into Social Life </h2>
+                <a href="SignUp.php"><button type="button" class="btn btn-primary btn-lg" style="border-radius: 25px;">SIGN UP</button></a>
+                <a href="SignIn.php"><button type="button" class="btn btn-lg" style="border-radius: 25px; background-color:#fe3f40;color:white">LOGIN</button></a>
+              </div>
             </div>
+            <div class="col-lg-6">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="/img/iset.jpg" alt="team meeting">
+              </div>
+            </div>
+          </div>
         </div>
-    </body>
-</html>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="about-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="left-image wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+            <img src="/img/about-left-image.png" alt="person graphic">
+          </div>
+        </div>
+        <div class="col-lg-8 align-self-center">
+          <div class="services">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                  <div class="icon">
+                    <img src="/img/service-icon-01.png" alt="reporting">
+                  </div>
+                  <div class="right-text">
+                    <h4>Participation </h4>
+                    <p>Join Us and be part of our events</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
+                  <div class="icon">
+                    <img src="/img/service-icon-02.png" alt="">
+                  </div>
+                  <div class="right-text">
+                    <h4>Clubs</h4>
+                    <p>Join our Clubs and impose yourself</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.9s">
+                  <div class="icon">
+                    <img src="/img/service-icon-03.png" alt="">
+                  </div>
+                  <div class="right-text">
+                    <h4>Statistics</h4>
+                    <p>Consult our Events and know more about our great work</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="1.1s">
+                  <div class="icon">
+                    <img src="/img/service-icon-04.png" alt="">
+                  </div>
+                  <div class="right-text">
+                    <h4>Suggestions</h4>
+                    <p>Give your propositions you are so welcome</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services" class="our-services section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+          <div class="left-image">
+            <img src="/img/services-left-image.png" alt="">
+          </div>
+        </div>
+        </div>
+      </div>
+  </div>    
+  
+ 
+
+@endsection
+               
+          
