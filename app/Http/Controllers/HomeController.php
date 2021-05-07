@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use app\Evenement;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -13,7 +14,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+       // $this->middleware('auth');
     }
 
     /**
@@ -25,4 +26,19 @@ class HomeController extends Controller
     {
         return view('home');
     }
+    public function welcome()
+    {
+        return view('welcome');
+    }
+    
+    public function IEEE()
+
+    {
+        $evenements=Evenement::intRandomOrder()->limit(3)->get();
+        return view('IEEE',[
+            'evenements' => $Evenement
+        ]);
+    }
+   
+
 }
