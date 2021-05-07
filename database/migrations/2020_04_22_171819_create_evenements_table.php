@@ -17,14 +17,13 @@ class CreateEvenementsTable extends Migration
             $table->increments('id');
             $table->string('nom');
             $table->string('date');
-            //$table->integer('nb_participant');
-           //$table->bIgInteger('statistique_id')->unsigned()->index();
-           $table->bigInteger('responsableMedia_id')->unsigned()->index();
-            
-          
-          //$table->foreign('statistique_id')->references('id')->on('  statistiques')->onDelete('restrict')->onUpdate('restrict');
-          $table->timestamps();
-          $table->foreign('responsableMedia_id')->references('id')->on('resp_medias')->onDelete('restrict')->onUpdate('restrict');
+            $table->String('image');
+            $table->integer('nb_patricipant');
+            $table->integer('statistique_id')->unsigned()->index();
+            $table->bigInteger('responsableMedia_id')->unsigned()->index();
+            $table->timestamps();
+            $table->foreign('statistique_id')->references('id')->on('statistiques')->onDelete('restrict')->onUpdate('restrict');
+            $table->foreign('responsableMedia_id')->references('id')->on('resp_medias')->onDelete('restrict')->onUpdate('restrict');
         });
     }
 

@@ -24,7 +24,12 @@ define('LARAVEL_START', microtime(true));
 require __DIR__.'/../vendor/autoload.php';
 
 /*
+<<<<<<< HEAD
 
+=======
+34c37cc6c
+|
+>>>>>>> 6ab70f8e89384e36465e4a44d883059b688d8b7c
 | We need to illuminate PHP development, so let us turn on the lights.
 | This bootstraps the framework and gets it ready for use, then it
 | will load up this application so that we can run it and send
