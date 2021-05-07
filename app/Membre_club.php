@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Membre_club extends Model
 {
-    //protected $table='Membre_club';
+   // protected $table='membre__clubs';
 
     public function membre_clubs()
     {

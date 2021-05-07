@@ -2,10 +2,9 @@
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
-use App\Model;
-use Faker\Generator as Faker;
-use App\Membre_club;
 use App\Club;
+use App\Membre_club;
+use Faker\Generator as Faker;
 
 $factory->define(App\Membre_club::class, function (Faker $faker) {
     return [
