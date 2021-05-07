@@ -14,10 +14,10 @@ class CreateSallesTable extends Migration
     public function up()
     {
         Schema::create('salles', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->Increments('id');
             $table->integer('numero');
             $table->date('date_dispo');
-            $table->date('heure');
+            $table->time('heure');
             $table->timestamps();
         });
     }

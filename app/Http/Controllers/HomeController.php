@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Salle;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -13,7 +14,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+       $this->middleware('auth')->except('welcome');
     }
 
     /**
@@ -24,5 +25,15 @@ class HomeController extends Controller
     public function index()
     {
         return view('home');
+    }
+    public function welcome(){
+        return view('welcome');
+    }
+    public function google()
+    {
+        $salles= Salle::inRandomOrder()->limit(3)->get();
+        return view('google',[
+            'salles' => $salles
+        ]);
     }
 }
