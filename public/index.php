@@ -24,9 +24,21 @@ define('LARAVEL_START', microtime(true));
 require __DIR__.'/../vendor/autoload.php';
 
 /*
+<<<<<<< HEAD
+<<<<<<< HEAD
+|-------------------------------------------------------------------------
+| Turn On The Lights
+|-------------------------------------------------------------------------
+=======
 |--------------------------------------------------------------------------
 | Turn On The Lights
 |--------------------------------------------------------------------------
+>>>>>>> 64f66bdaa00a0adcc2ba66b9fee14d334c37cc6c
+=======
+|--------------------------------------------------------------------------
+| Turn On The Lights
+|--------------------------------------------------------------------------
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
 |
 | We need to illuminate PHP development, so let us turn on the lights.
 | This bootstraps the framework and gets it ready for use, then it
@@ -54,7 +66,14 @@ $kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
 $response = $kernel->handle(
     $request = Illuminate\Http\Request::capture()
 );
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 
+>>>>>>> 64f66bdaa00a0adcc2ba66b9fee14d334c37cc6c
+=======
+
+>>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
 $response->send();
 
 $kernel->terminate($request, $response);
