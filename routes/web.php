@@ -27,3 +27,29 @@ Route::get('/page4C',function (){
 Route::get('/gaminglab',function (){
     return view('gaminglab');
 });
+Route::get('/IEEE',  function ()
+{
+    return view('IEEE');
+} );
+Route::get('/lifeclub',  function ()
+{
+    return view('lifeclub');
+} );
+Route::get('/weseek',  function ()
+{
+    return view('weseek');
+} );
+Route::get('/IsetEvents',function (){
+    return view('IsetEvents');
+});
+Route::get('/TunivisionHome',function (){
+    return view('TunivisionHome');
+});
+Route::get('/ShrysHome',function (){
+    return view('ShrysHome');
+});
+Route::get('/admin',function (){
+    return view('admin\dashboard');
+});
+
+Route::get('/utilisateurs', 'HomeController@utilisateurs');
