@@ -17,7 +17,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="clubs">
             <i class="far fa-address-card"></i>
               clubs
             </a>

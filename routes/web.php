@@ -53,3 +53,5 @@ Route::get('/admin',function (){
 });
 
 Route::get('/utilisateurs', 'HomeController@utilisateurs');
+Route::get('/clubs', 'HomeController@clubs');
+

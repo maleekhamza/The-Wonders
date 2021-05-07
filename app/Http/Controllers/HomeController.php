@@ -42,4 +42,8 @@ class HomeController extends Controller
         $user = DB::table('utilisateurs')->get();
  return view('admin.utilisateurs',['utilisateurs' => $user]);
     }
+    public function clubs(){
+        $club = DB::table('clubs')->get();
+ return view('admin.clubs',['clubs' => $club]);
+    }
 }

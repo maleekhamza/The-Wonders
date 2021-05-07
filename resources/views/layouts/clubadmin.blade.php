@@ -3,9 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.80.0">
     <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
    
-    <title>utilisateurs</title>
+    <title>clubs</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/dashboard/">
 
     
@@ -52,20 +57,18 @@
                     <thead>
                         <tr>
                             <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">numCin</th>
-                            <th scope="col">username</th>
+                            <th scope="col">Name club</th>
+                            <th scope="col">nb membres</th>
                             <th scope="col">Delete User</th>
                             <th scope="col">Update User</th>
                         </tr>
                     </thead>
                     <tbody id="result">
-                    @foreach ($utilisateurs as $user)
+                    @foreach ($clubs as $club)
                       <tr>
-                            <th scope="row">{{$user->id}}</th>
-                            <th scope="row">{{$user->name}}</th>
-                            <th>{{$user->numCin }}</th>
-                            <th>{{$user->username }}</th>
+                            <th scope="row">{{$club->id}}</th>
+                            <th scope="row">{{$club->nom_club}}</th>
+                            <th scope="row">{{$club->nb_membres}}</th>
                             <th> <a href=""> <i class="fa fa-ban" aria-hidden="true"></i> </a></th>
                             <th> <a href=""> <i class="fa fa-pencil" aria-hidden="true"></i> </a></th>
                         </tr>
@@ -87,4 +90,5 @@
 
       <script src="{{ asset('js/admin.js') }}" defer></script>
     </body>
+
 </html>
