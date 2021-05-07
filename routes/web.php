@@ -17,3 +17,13 @@ Route::get('/', 'HomeController@welcome');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/pageEvent',function (){
+    return view('pageEvent');
+});
+Route::get('/page4C',function (){
+    return view('page4C');
+});
+Route::get('/gaminglab',function (){
+    return view('gaminglab');
+});

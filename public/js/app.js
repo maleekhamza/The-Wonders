@@ -37410,18 +37410,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 __webpack_require__(/*! E:\laravel\The-Wonders-master\resources\js\app.js */"./resources/js/app.js");
 module.exports = __webpack_require__(/*! E:\laravel\The-Wonders-master\resources\sass\app.scss */"./resources/sass/app.scss");
-=======
-__webpack_require__(/*! C:\Users\ASUS\Desktop\Laravel\zanjabil-projet1\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\ASUS\Desktop\Laravel\zanjabil-projet1\resources\sass\app.scss */"./resources/sass/app.scss");
->>>>>>> 64f66bdaa00a0adcc2ba66b9fee14d334c37cc6c
-=======
-__webpack_require__(/*! C:\Users\DALI\Desktop\The-Wonders-zanjabilbenkhedher\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\DALI\Desktop\The-Wonders-zanjabilbenkhedher\resources\sass\app.scss */"./resources/sass/app.scss");
->>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
 
 
 /***/ })

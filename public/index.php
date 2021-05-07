@@ -66,14 +66,8 @@ $kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
 $response = $kernel->handle(
     $request = Illuminate\Http\Request::capture()
 );
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 64f66bdaa00a0adcc2ba66b9fee14d334c37cc6c
-=======
 
->>>>>>> bfd514df1e48f50305bbae2dd36c9e112ee1b0c1
 $response->send();
 
 $kernel->terminate($request, $response);
