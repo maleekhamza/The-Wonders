@@ -12,6 +12,6 @@ class Resp_mediasTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(Resp_media::class,20)->create();
+        factory(Resp_media::class,10)->create();
     }
 }

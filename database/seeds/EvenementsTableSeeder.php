@@ -1,9 +1,9 @@
-<?php
+gi<?php
 
-use App\Club;
+use App\Evenement;
 use Illuminate\Database\Seeder;
 
-class ClubsTableSeeder extends Seeder
+class EvenementsTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -12,6 +12,6 @@ class ClubsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(Club::class,10)->create();
+        factory(Evenement::class,10)->create();
     }
 }

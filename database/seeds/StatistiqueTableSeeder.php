@@ -1,9 +1,8 @@
 <?php
-
-use App\Club;
+use App\Statistique;
 use Illuminate\Database\Seeder;
 
-class ClubsTableSeeder extends Seeder
+class StatistiqueTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -12,6 +11,6 @@ class ClubsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(Club::class,10)->create();
+        factory(Statistique::class,10)->create();
     }
 }

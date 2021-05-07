@@ -12,4 +12,5 @@ class Resp_media extends Model
     {
         return $this->belongsTo('App\Resp_media');
     }
+
 }

@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateMembreClubsTable extends Migration
+class CreateRespMediasTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,15 +13,16 @@ class CreateMembreClubsTable extends Migration
      */
     public function up()
     {
-        Schema::create('membre__clubs', function (Blueprint $table) {
+        Schema::create('resp_medias', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->integer('club_id')->unsigned();
             $table->string('nom');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->integer('id_club')->unsigned()->index();
+           
             $table->timestamps();
-            $table->foreign('id_club')->references('id')->on('clubs')->onDelete('restrict')->onUpdate('restrict');
+            $table->foreign('club_id')->references('id')->on('clubs')->onDelete('restrict')->onUpdate('restrict');
         });
     }
 
@@ -32,6 +33,6 @@ class CreateMembreClubsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('membre__clubs');
+        Schema::dropIfExists('resp_media');
     }
 }

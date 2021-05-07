@@ -1,9 +1,9 @@
 <?php
 
-use App\Club;
 use Illuminate\Database\Seeder;
+use App\Proposition;
 
-class ClubsTableSeeder extends Seeder
+class PropositionTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -12,6 +12,7 @@ class ClubsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(Club::class,10)->create();
+        factory(Proposition::class,10)->create();
+
     }
 }
