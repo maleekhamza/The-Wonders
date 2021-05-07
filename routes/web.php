@@ -29,11 +29,6 @@ Route::get('/weseek',  function ()
 {
     return view('weseek');
 } );
-
-=======
-Route::get('/welcome',function (){
-    return view('welcome');
-});
 Route::get('/IsetEvents',function (){
     return view('IsetEvents');
 });
@@ -46,4 +41,5 @@ Route::get('/ShrysHome',function (){
 Route::get('/admin',function (){
     return view('admin\dashboard');
 });
->>>>>>> 6ab70f8e89384e36465e4a44d883059b688d8b7c
+
+Route::get('/utilisateurs', 'HomeController@utilisateurs');

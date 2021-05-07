@@ -41,7 +41,7 @@
    var_dump($evenements)
     die  
    @endphp
-   print_r($evenements);
+ 
       @foreach ($evenements ?? ''as $Evenement) 
         <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
           <div class="right-list">
