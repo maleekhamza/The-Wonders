@@ -1,13 +1,4 @@
 @extends('layouts.app')
-<<<<<<< HEAD
-   @section('content')        
-   <div class="jumbotron">
-                dsi2_isetbizerte
-    </div>
-
-     @endsection 
-     
-=======
 @section('content')
 <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
     <div class="container">
@@ -112,4 +103,3 @@
 @endsection
                
           
->>>>>>> 6ab70f8e89384e36465e4a44d883059b688d8b7c
